@@ -7,13 +7,13 @@ import pandas_datareader.data as pdr
 import strategies
 import datareader
 
-path = r'C:\Users\luiso\chromedriver.exe'
+#path = r'C:\Users\luiso\chromedriver.exe'
 
 # This file has the daily composition of the Ibovespa since 2000
-stocks = pd.read_csv(r'data\ibov_composition.csv',index_col=0)
+stocks = pd.read_csv('./data/ibov_composition.csv',index_col=0)
 
 # This file has the daily prices of all stocks that participated the Ibovespa
-prices = pd.read_csv(r'data\prices_ibov_composition.csv')
+prices = pd.read_csv('./data/prices_ibov_composition.csv')
 prices.drop('FIELD', axis=1, inplace=True)
 prices.set_index('TRADE_DATE', inplace=True)
 
@@ -45,13 +45,13 @@ from smtplib import SMTP
 port = 465  # For SSL
 sender_email = "luisoap.email@gmail.com"
 password = '1020ABCDEF'
-recipients = ["luisoap2@gmail.com",
-              "leonardosiqueira86@gmail.com",
-              "vhalexs@gmail.com",
-              "adrecaluz@gmail.com",
-              "valentinaccc@icloud.com",
-              "guilhermeleitepaiva@gmail.com"]
-# recipients = ["luisoap2@gmail.com"]
+#recipients = ["luisoap2@gmail.com",
+#              "leonardosiqueira86@gmail.com",
+#              "vhalexs@gmail.com",
+#              "adrecaluz@gmail.com",
+#              "valentinaccc@icloud.com",
+#              "guilhermeleitepaiva@gmail.com"]
+recipients = ["cefasgarciapereira@gmail.com"]
 emaillist = [elem.strip().split(',') for elem in recipients]
 
 msg = MIMEMultipart()
