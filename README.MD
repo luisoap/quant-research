@@ -1,17 +1,4 @@
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Quant Research</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-  </p>
-</p>
-
-
+<h1 align="center">Quant Research</h1>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -20,14 +7,9 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -72,9 +54,7 @@ This project is NOT licensend, it means that rights are reserved and it is not O
 <!-- CONTACT -->
 ## Contact
 
-Cefas Garcia Pereira - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/cefas-garcia-pereira-bbaaa080/)
-&nbsp; - [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/cefasgarciapereira)
- - [cefas.me](https://cefas.me) - cefasgarciapereira@gmail.com 
+Cefas Garcia Pereira - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/cefas-garcia-pereira-bbaaa080/) &nbsp; - [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/cefasgarciapereira) - [cefas.me](https://cefas.me) - cefasgarciapereira@gmail.com 
 
 Luis Otávio Abrahão Pinto - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/luis-ot%C3%A1vio-abrah%C3%A3o-pinto-a20068ba/)- luisoap2@gmail.com
 
